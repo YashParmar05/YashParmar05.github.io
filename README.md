@@ -1,4 +1,4 @@
-# Yash Parmar — AI/ML Engineer Portfolio
+# Yash Parmar - AI/ML Engineer Portfolio
 
 Personal portfolio website showcasing my background, technical expertise, projects, professional experience, education, certifications, and achievements in **Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, NLP, and Generative AI**.
 
@@ -37,8 +37,8 @@ A structured overview of my skills across:
 
 Professional experience including:
 
-* **Python Intern — Quantumbot**
-* **ICT Development — National Games 2022, Indian Olympic Association**
+* **Python Intern - Quantumbot**
+* **ICT Development - National Games 2022, Indian Olympic Association**
 
 The section highlights responsibilities, technologies used, and contributions made during these roles.
 
@@ -64,8 +64,8 @@ A responsive e-commerce style cafeteria management platform with authentication,
 
 Academic background including:
 
-* **M.Tech in Artificial Intelligence — University of Hyderabad**
-* **B.Tech in Computer Engineering — Gujarat Technological University**
+* **M.Tech in Artificial Intelligence - University of Hyderabad**
+* **B.Tech in Computer Engineering - Gujarat Technological University**
 
 The section also highlights relevant areas of study and academic work.
 
@@ -84,10 +84,10 @@ Professional certifications and learning credentials covering areas such as:
 
 Selected competitive programming and academic achievements, including:
 
-* **GATE Qualified — 2024**
+* **GATE Qualified - 2024**
 * **250+ LeetCode problems**
 * **200+ CodeChef problems**
-* **Devang Mehta IT Award — 2023**
+* **Devang Mehta IT Award - 2023**
 
 ### 🤝 Extracurricular Activities
 
