@@ -44,3 +44,28 @@ html[data-theme="light"] .icon-sun{display:none}html[data-theme="light"] .icon-m
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
 @media(max-width:900px){nav{display:none;position:absolute;top:74px;left:0;width:100%;padding:22px 6vw;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--border)}nav.open{display:flex}.menu-btn{display:grid}.about-grid{grid-template-columns:1fr;gap:55px}.profile-card{max-width:460px}.achievements{grid-template-columns:repeat(2,1fr)}.timeline-company{grid-template-columns:68px 1fr}.company-logo{width:62px;height:62px}}
 @media(max-width:650px){.section{padding:90px 6vw}.hero{padding:110px 6vw 80px}.hero h1{font-size:4.2rem}.hero h2 br{display:none}.socials{gap:10px}.skills-grid,.projects,.education-grid{grid-template-columns:1fr}.skill{padding:30px}.timeline-item{grid-template-columns:1fr;gap:10px;padding-left:30px}.timeline-company{grid-template-columns:1fr;gap:18px}.timeline-company h3{font-size:25px}.facts{grid-template-columns:1fr}.achievements{grid-template-columns:1fr}.contact{padding:110px 6vw}.contact-links{gap:12px}.university-row{align-items:flex-start}}
+
+
+/* Center the last project only when project count is odd */
+.projects > .project:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc(50% - 8px);
+    justify-self: center;
+}
+
+/* Even number of projects: normal 2-column layout */
+.projects > .project:last-child:nth-child(even) {
+    grid-column: auto;
+    width: auto;
+    justify-self: stretch;
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+    .projects > .project:last-child:nth-child(odd),
+    .projects > .project:last-child:nth-child(even) {
+        grid-column: auto;
+        width: auto;
+        justify-self: stretch;
+    }
+}
